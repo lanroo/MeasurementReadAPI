@@ -32,7 +32,7 @@ Este endpoint recebe uma imagem de um medidor (de água ou gás) em base64, envi
  "image": "base64",
  "customer_code": "string",
  "measure_datetime": "datetime",
- "measure_type": "WATER" or "GAS"
+ "measure_type": "WATER or GAS"
 }
 ```
 
@@ -52,7 +52,7 @@ Este endpoint confirma ou corrige o valor lido previamente pela API Gemini.
 ```json
 {
  "measure_uuid": "string",
- "confirmed_value": integer
+ "confirmed_value": "integer"
 }
 ```
 
